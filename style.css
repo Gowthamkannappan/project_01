@@ -5,12 +5,27 @@ body{
     font-family: "monospace","san-serif";
 }
 .font-primary{
-    color:#00abae
+    color:#00abae;
+}
+a.nav-link {
+ font-weight: bold;    /***********/
 }
 .title-icon{
     font-size: 20px;
     font-weight: bold;
 }
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+a.font-black {
+    color: black !important;
+}
+p {
+    font-size: 16px;
+}
+
 /**** About ***/
 #about {
 margin: 60px auto;
@@ -18,7 +33,7 @@ max-width: 400px;
 text-align: center;
 }
 #about img{
-    border-radius: 50px;
+    border-radius: 100%;
     width: 120px;
     margin-bottom: 10px;
 
@@ -31,7 +46,7 @@ text-align: center;
 #about .vocation {
     font-size: 17px;
     color: #a8a8ab;
-    margin bottom:10px;
+    margin-bottom:10px;
 }
 #about .skills {
     font-size:15px;
@@ -48,4 +63,20 @@ text-align: center;
 }
 #about .icons a{
     color: rgb(0,0,0)
+}
+
+/****Project****/
+#Project {
+    margin: 60px auto;
+    width: 80%;
+    }
+#Project h2{
+    text-align: center;
+}
+
+#Project .card img {
+    width: 100%;
+}
+#project .card-title {
+    font-weight: bold;
 }
